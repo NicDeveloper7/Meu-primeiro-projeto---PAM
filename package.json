@@ -1,0 +1,23 @@
+{
+  "name": "monaca-template-minimum",
+  "version": "3.0.1",
+  "displayName": "Monaca Template Minimum",
+  "dependencies": {
+    "cordova-plugin-splashscreen": "6.0.0",
+    "monaca-plugin-monaca-core": "3.3.1"
+  },
+  "scripts": {
+    "monaca:preview": "npm run dev",
+    "dev": "browser-sync start -s www/ --watch --port 8080 --ui-port 8081"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-splashscreen": {},
+      "monaca-plugin-monaca-core": {}
+    }
+  },
+  "devDependencies": {
+    "browser-sync": "~2.27.7",
+    "cordova": "^11.0.0"
+  }
+}
